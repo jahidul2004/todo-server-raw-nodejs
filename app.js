@@ -192,6 +192,14 @@ const server = http.createServer((req, res) => {
             res.end(JSON.stringify({ message: "Todo deleted successfully" }));
         }
     }
+
+    //If route not found
+    else {
+        res.writeHead(404, {
+            "content-type": "application/json",
+        });
+        res.end(JSON.stringify({ message: "Route not found" }));
+    }
 });
 
 //Listening to server

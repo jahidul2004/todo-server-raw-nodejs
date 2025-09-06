@@ -77,6 +77,12 @@ todoAppServer/
 -   **Description:** Delete a todo by ID.
 -   **Response:** Success message or 404 if not found
 
+### 7. Not Found (Fallback)
+
+-   **Any undefined route**
+-   **Description:** If a request is made to an undefined route, the server responds with a 404 status and a message.
+-   **Response:** `{ "message": "Route not found" }`
+
 ## Data Format
 
 Each todo item in `db/todo.json` has the following structure:
