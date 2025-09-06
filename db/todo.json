@@ -1,0 +1,12 @@
+[
+    { "id": 1, "task": "Buy me a coffee updated", "completed": true },
+    { "id": 2, "task": "Walk the dog", "completed": true },
+    { "id": 3, "task": "Finish homework", "completed": false },
+    { "id": 4, "task": "Clean the house", "completed": true },
+    { "id": 5, "task": "Pay bills", "completed": false },
+    { "id": 6, "task": "Call mom", "completed": true },
+    { "id": 7, "task": "Buy me a coffee updated", "completed": true },
+    { "id": 8, "task": "Exercise", "completed": true },
+    { "id": 9, "task": "Cook dinner", "completed": false },
+    { "id": 10, "task": "Plan weekend trip", "completed": true }
+]
