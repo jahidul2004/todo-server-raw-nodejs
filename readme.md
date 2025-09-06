@@ -102,7 +102,7 @@ Each todo item in `db/todo.json` has the following structure:
 
 ## Author
 
--   Written by [Your Name]
+-   Written by Jahidul Islam Jihad
 
 ---
 
